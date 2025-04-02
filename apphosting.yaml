@@ -1,1 +1,13 @@
-break formatting
+break
+runConfig:
+  cpu: 4
+  memoryMiB: 4096
+  maxInstances: 4
+  minInstances: 0
+  concurrency: 100
+env:
+  - variable: API_URL
+    value: api.service.com
+  - variable: HOSTNAME
+    value: "0.0.0.0"
+  # - v
